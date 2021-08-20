@@ -4,6 +4,7 @@ import FrontPage from './sections/FrontPage';
 import { useDispatch } from "react-redux";
 import { useEffect, useState } from 'react';
 import { updateArt } from "./actions";
+import Bids from "./components/Bids";
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
   
   return (
     <div className="App">
-      <Header />
-      <FrontPage arts={arts} />
+      {/* <Header />
+      <FrontPage arts={arts} /> */}
+      <Bids />
     </div>
   );
 }
