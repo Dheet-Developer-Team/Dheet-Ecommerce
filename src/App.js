@@ -5,6 +5,7 @@ import Category from "./components/Category";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 import { getProducts } from "./actions/index";
+import FooterPagePro from './sections/Footer';
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -28,6 +29,7 @@ function App() {
             <Category />
           </Route>
         </Switch>
+        <FooterPagePro/>
       </div>
     </Router>
   );
