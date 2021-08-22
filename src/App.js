@@ -1,31 +1,35 @@
-import Header from './sections/Header';
-import './App.css';
-import FrontPage from './sections/FrontPage';
-import { useDispatch } from "react-redux";
-import { useEffect, useState } from 'react';
-import { updateArt } from "./actions";
-import Bids from "./components/Bids";
+import Header from "./sections/Header";
+import "./App.css";
+import FrontPage from "./sections/FrontPage";
+import Category from "./components/Category";
+import { useSelector, useDispatch } from "react-redux";
+import { useEffect, useState } from "react";
+import { getProducts } from "./actions/index";
 
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   const dispatch = useDispatch();
-  const [arts, setArts] = useState([]);
+  const products = useSelector((state) => state.products);
 
   useEffect(() => {
-    dispatch(updateArt);
-    fetch("/assets/database.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setArts(data);
-      });
+    dispatch(getProducts());
   }, []);
-  
+
   return (
-    <div className="App">
-      <Header />
-      <FrontPage arts={arts} />
-      {/* <Bids /> */}
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            {products.length ? <FrontPage products={products} /> : null}
+          </Route>
+          <Route exact path="/:category">
+            <Category />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

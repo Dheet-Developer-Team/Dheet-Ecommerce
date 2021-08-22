@@ -1,16 +1,16 @@
 import React from "react";
 
-const updateArt = () => {
+const getProducts = () => {
   return (dispatch) => {
     fetch("/assets/database.json")
       .then((res) => res.json())
       .then((data) => {
         dispatch({
-          type: "UPDATE_ART",
+          type: "GET_PRODUCTS",
           payload: data,
         });
       });
   };
 };
 
-export { updateArt };
+export { getProducts };

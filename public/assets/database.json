@@ -110,6 +110,7 @@
       "Price": "0.039",
       "Owner": "F1® Delta Time",
       "Name": "Gloves",
+        "Description":"The flying goal card, wish to make goals like the Freaks?",
       "Image": "https://lh3.googleusercontent.com/cqpbIaBh56P2gjkIAS1ZGJFfRQfrxNj1wEthOgWWh0oDIj6_wk0iv7ZU8WZGOFGRjKLvkHxw5W0-Ig-G5g1GiIlNjVeToTzLxUqxNW0=w600"
     },
     {
@@ -118,6 +119,7 @@
       "Price": "0.043",
       "Owner": "F1® Delta Time",
       "Name": "Suit",
+        "Description":"Wear this suit and I swear you'll feel like a hero!",
       "Image": "https://lh3.googleusercontent.com/y7s2ODksFNbzLUqxQVUovCgKoViQnRW556-hPUyBpnum0Uej945eWiGJuiClE7S8MFVtHnEzmyg-WYuqbpxApUFh8lGBXqia1QLp=w600"
     },
     {
@@ -126,6 +128,7 @@
       "Price": "0.047",
       "Owner": "F1® Delta Time",
       "Name": "Front Wing",
+        "Description":"Don't those wings look amazing? I wish I could get those for my car :/",
       "Image": "https://lh3.googleusercontent.com/OHvlFOtHVw330JlXfe1d8fP9r0wGc7U4hZBoXi19gP0vpbJBfVlnkGmB--ybgIH1UFhHs_HdCWNesoz4GoYsjR4WULBP-r1Hxum3=w600"
     },
     {
@@ -134,6 +137,7 @@
       "Price": "0.051",
       "Owner": "F1® Delta Time",
       "Name": "Energy Store",
+        "Description":"The only storage you need, to store everything from files to ... *coughs* :P ",
       "Image": "https://lh3.googleusercontent.com/YBqntNSmvnLkGhNLKIwzsz6QgFvB8YLDtfF8kHMpQu1JcMGJzGxmRcKUHmds5zVxztobM-VpjWqZ0uKWc7OYygEEu9WfQ2JkE3kREw=w600"
     },
     {
@@ -142,6 +146,7 @@
       "Price": "0.055",
       "Owner": "F1® Delta Time",
       "Name": "Helmet",
+        "Description":"Get this helmet and get that Delta ride!",
       "Image": "https://lh3.googleusercontent.com/5jtcERWU3mznDiii1R2UL4YGQkBo8f35yHNVdZaUJ-zpeKhQ4douIsYC7DXy4_IFDwlMrkMboim8MhvGlCPTkvtQpj_HOD84WKUCIiM=w600"
     },
     {
@@ -150,6 +155,7 @@
       "Price": "0.059",
       "Owner": "REVV Racing",
       "Name": "REVV Ambition",
+        "Description":"WTF? You don't wish to get this car?",
       "Image": "https://lh3.googleusercontent.com/c3MlROjQArLksPgAJAVkxNuuK3GSLMsLaIBz1uIPHfXZfls504KMgqZM1O_hJkNLyLlMFSBakN-0vuIyIeQzoFcQl7WiU_ZIq1Q-=w600"
     },
     {
@@ -158,6 +164,7 @@
       "Price": "0.063",
       "Owner": "REVV Racing",
       "Name": "REVV Ambition",
+        "Description":"The NBA inspitaion! <3",
       "Image": "https://lh3.googleusercontent.com/kl8zOlwupPLax6ixstCUDIbabUnXsWdsjeSROCjpeSO_UNXDMZvmnsfMSMP8j1hJ3lfNgEnxzM4dMWXV0ExuKIUB8KW-CsGSEREtDws=w600"
     },
     {
@@ -166,6 +173,7 @@
       "Price": "0.067",
       "Owner": "REVV Racing",
       "Name": "REVV Ambition",
+        "Description":"Ground clearance, what's that?",
       "Image": "https://lh3.googleusercontent.com/Z4ahYEacidHGhOciE1m2aD89jVJIA8ASyqCkd3yoosO0IAnbTq6E0CEYeI5uoexv7_grGimz6MD-lnThzZU3c8lJ-t8Dx4iYrnaIpA=w600"
     },
     {
@@ -174,6 +182,7 @@
       "Price": "0.071",
       "Owner": "AllStarFreaks",
       "Name": "Harrison (#174)",
+        "Description":"Freaks 40: Harrison",
       "Image": "https://lh3.googleusercontent.com/Duk2IdbHKnggIGYqdoliZ0jU0P_CnCWs_r8z3ENK3oUi7lbtGV7LK0npZnHE9MtuDPvfv7rF12cvMfjZrp_iohNVKPUDwTCjUwfhvT8=w600"
     },
     {
@@ -182,6 +191,7 @@
       "Price": "0.021",
       "Owner": "AllStarFreaks",
       "Name": "Carushow (#75)",
+        "Description":"The flying goal card, wish to make goals like the Freaks?",
       "Image": "https://lh3.googleusercontent.com/HBq1217c4Qe5qRUvoooZ0-Nki6QdWO630Zmoqd-QI441LeCqfcjSNn_OTWNlgbUzM530yA_iftNGaTMr4hEmGsrmpyS-SCEWW9-9=w600"
     },
     {
@@ -190,6 +200,7 @@
       "Price": "0.026",
       "Owner": "AllStarFreaks",
       "Name": "Quin \"Freaks Coach\" Insert (#089)",
+        "Description":"Want to make more people freaky like you? Hop on!",
       "Image": "https://lh3.googleusercontent.com/5JRW3Cot5K5AdkqkFFOt2iwqb4Uj9YHK89IZtTzYboLiurrqpyqGCGwsjxB285KpGyy62qV9YS0AL4ObHNcObSi98ax0zGxPcfanMhs=w600"
     },
     {
@@ -198,6 +209,7 @@
       "Price": "0.031",
       "Owner": "AllStarFreaks",
       "Name": "\"Freaks Insider\" Insert (#099)",
+      "Description":"Are you as freaky as Windy? Get into Freaks insider! ;)",
       "Image": "https://lh3.googleusercontent.com/bUC0m04dTbt8sQSos3D812B7WJbFgYxjLqSaU7FzuhfFI1Hqqv8qWtlRsTZlNI5DyjCxWkjyf2ofliNTg7yZeJh_uBc52IXO08Al=w600"
     },
     {
