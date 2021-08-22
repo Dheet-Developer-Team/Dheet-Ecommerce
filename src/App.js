@@ -22,9 +22,9 @@ function App() {
   
   return (
     <div className="App">
-      {/* <Header />
-      <FrontPage arts={arts} /> */}
-      <Bids />
+      <Header />
+      <FrontPage arts={arts} />
+      {/* <Bids /> */}
     </div>
   );
 }
