@@ -1,11 +1,13 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* -----------------------------------Header---------------------------------------------------- */
-.header {
+.header{
   width: 100%;
   height: 60px;
   display: flex;
@@ -13,25 +15,23 @@
   align-items: center;
   justify-content: space-between;
 }
-.header .title {
+.header .title{
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.header .title img {
+.header .title img{
   width: 40px;
   height: 40px;
   margin-left: 20px;
 }
 
-.header h2 {
-  padding-left: 20px;
-  font-size: 1.8rem;
-  cursor: pointer;
-  padding-top: 5px;
+.header h2{
+   padding-left: 20px;
+   font-size: 1.8rem;
+   cursor: pointer;
+   padding-top: 5px;
 }
 
-.header input {
+.header input{
   width: 400px;
   font-size: 1rem;
   padding: 8px;
@@ -39,8 +39,8 @@
   border: 0;
 }
 
-.header input:focus {
-  outline-color: dodgerblue;
+.header input:focus{
+  outline-color: dodgerblue ;
 }
 
 .header ul {
@@ -49,9 +49,8 @@
   padding: 0;
   font-size: 1.3rem;
   display: inline-block;
-  margin-top: 10px;
 }
-.header svg {
+.header svg{
   width: 25px;
   height: 25px;
   margin: 5px 15px 5px 10px;
@@ -68,46 +67,43 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-.right-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /* ----------------------------------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------Front Page---------------------------------------------- */
 
-.front {
+.front{
   width: 100%;
-  height: 700px;
+  height: 700px; 
   display: flex;
 }
 
-.left {
+
+.left{
   width: 50%;
   height: 90%;
   margin-right: 10%;
 }
-.left .content {
+.left .content{
   width: 450px;
   height: 200px;
   margin: 20% auto;
 }
-.left .content h1 {
+.left .content h1{
   font-size: 3rem;
 }
-.left .content p {
+.left .content p{
   margin-top: 10px;
   font-size: 2rem;
 }
 
-.right {
+.right{
   width: 45%;
   height: 90%;
   padding-right: 100px;
+  
 }
 
-.right .card {
+.right .card{
   width: 600px;
   height: 500px;
   margin: 10% auto;
@@ -116,18 +112,18 @@ a {
   border-radius: 10px;
   transition: transform 250ms;
 }
-.right .card:hover {
+.right .card:hover{
   cursor: pointer;
   opacity: 0.8;
   transform: translateY(10px);
 }
 
-#explore {
+#explore{
   background-color: dodgerblue;
   color: #fff;
   padding: 5px 10px 5px 10px;
   font-size: 1.1rem;
-  border-radius: 5px;
+  border-radius:5px;
   margin-top: 25px;
   width: 150px;
   height: 40px;
@@ -137,16 +133,16 @@ a {
   border-color: dodgerblue;
   border-width: 0px;
 }
-#explore:hover {
+#explore:hover{
   cursor: pointer;
   background-color: rgb(10, 110, 209);
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
-.div {
+.div{
   text-align: center;
 }
-.card-component {
+.card-component{
   width: 24%;
   height: 500px;
   display: inline-block;
@@ -154,13 +150,13 @@ a {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
   transition: transform 250ms;
 }
-.card-component:hover {
+.card-component:hover{
   cursor: pointer;
   opacity: 0.9;
   transform: translateY(10px);
 }
 
-.cards {
+.cards{
   width: 78%;
   height: 550px;
   white-space: nowrap;
@@ -168,15 +164,15 @@ a {
   margin-right: 11%;
   margin-top: 5%;
 }
-.card-component .art-image {
+.card-component .art-image{
   width: 100%;
   height: 350px;
 }
-.card-component img {
+.card-component img{
   width: 100%;
   height: 100%;
 }
-.card-component .card-content {
+.card-component .card-content{
   height: 150px;
   padding-top: 30px;
   text-align: center;
@@ -184,84 +180,184 @@ a {
   background-color: rgba(60, 96, 194, 0.966);
   color: #fff;
 }
-.card-component .card-content h5 {
+.card-component .card-content h5{
   margin-top: 10px;
 }
 
 /* --------------------------------------------------------------------------------------------------------------- */
 
-.div2 {
+.div2{
   text-align: center;
   margin-top: 70px;
   margin-bottom: 60px;
 }
-.category {
+.category{
   margin-top: 30px;
-  height: 700px;
+  height: 600px;
   width: 66%;
   margin-right: 20%;
   margin-left: 18%;
-  display: flex;
-  flex-flow: column wrap;
 }
-.category .category-card {
-  margin: 20px;
-  margin-top: 50px;
+.category .category-card{
+  height: 45%;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: inline-block;
+  margin-bottom: 5%;
   transition: transfrom 250ms linear;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-
-  flex: 200px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-
-.category .category-card .catCard {
+.category .category-card .catCard{
   width: 100%;
   height: 80%;
   border-radius: 10%;
 }
-.category .category-card .catCard img {
+.category .category-card .catCard img{
   width: 100%;
   height: 100%;
 }
-.category .category-card h4 {
+.category .category-card h4{
   text-align: center;
   font-size: 1.5rem;
   margin-top: 15px;
-  padding-bottom: 10px;
 }
-.category-card:hover {
+.category-card:hover{
   cursor: pointer;
   opacity: 0.9;
-  transform: translateY(5px);
+  transform: translateY(5px)
 }
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
-.footer {
+.footer-div .first-div{
+  background-color: rgb(6, 67, 128);
+  width: 100%;
+  height: 30px;
+}
+.footer-div{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 100px;
   width: 100%;
-  height: 60px;
+  height: 410px;
   background-color: rgb(13, 117, 221);
   color: #fff;
-  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.team-container{
+  float: left;
+  width: 50%;
+  height: 250px;
+}
+.team-container .dheet-div{
+  margin-left: 110px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.team-container .dheet-div svg{
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+.footer-div ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-div li{
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
-    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  font-size: 1.1rem;
 }
-.footer h1 {
-  font-size: 1rem;
-  padding-top: 10px;
+.footer-div a{
+  color: rgba(255, 255, 255, 0.904);
   display: inline-block;
 }
-.footer svg {
-  width: 30px;
-  height: 25px;
-  color: #fff;
+.footer-div svg{
+  margin-right: 3px;
+}
+.footer-div .members{
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.footer a:hover {
+.contact-div{
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-div input, textarea{
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border: 0;
+}
+.contact-div input:focus, textarea:focus{
+  outline-color: dodgerblue;
+  outline: none;
+}
+.contact-div textarea{
+  height: 100px;
+}
+.contact-div button{
+  padding: 5px 10px 5px 10px;
+  align-self: flex-start;
+  margin-left: 151.5px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: dodgerblue;
+  color: #fff;
+  border: 0;
+  font-size: 1.2rem;
+  width: 80px;
+}
+.contact-div button:hover{
   cursor: pointer;
   opacity: 0.8;
+}
+.contact-div .contact-head{
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+.contact-div .contact-head h2{
+  margin-left: 10px;
+}
+.contact-div .contact-head svg{
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+.footer-div .last{
+  width: 90%;
+  height: 20%;
+  border: 2px solid rgba(255, 255, 255, 0.671);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-left: 5%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+#one-last{
+  margin-top: 7px;
+}
+#another-last{
+  display: flex;
+  align-items: center;
+}
+#another-last svg{
+  margin-left: 5px;
 }
